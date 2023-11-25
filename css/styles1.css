@@ -28053,7 +28053,7 @@ blockquote .author {
     Spacing
 -------------------------*/
 .edu-section-gap {
-    padding: 75px 0 60px;
+    padding: 25px 0 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -33747,4 +33747,68 @@ th {
   .contact-form {
     padding: 0px;
 }
+}
+.over-table td , .over-table th {
+    padding: 0px 5px !important;
+    font-size: 15px !important;
+}
+.over-table {
+    padding: 20px !important;
+
+}
+.maint-div {
+    padding-right: 50px;
+}
+.approval p {
+    text-align: center ;
+}
+.course-page .course-box {
+    padding: 25px 15px;
+    margin: 20px 0px;
+}
+.contact-form.form-style-2 {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin: 0px 75px;
+}
+.contact-form.form-style-2 input {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+}
+.contact-form.form-style-2 input::placeholder {
+    color: white;
+}
+.contact-form.form-style-2 button {
+    margin-top: 15px !important;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.contact-form.form-style-2 button::after {
+    display: none;
+}
+
+.contact-form.form-style-2 textarea {
+    background-color: transparent;
+    border: none;
+    min-height: 80px;
+}
+.course-f {
+    /* margin: 40px !important; */
+    background-color: rgb(238 29 35 / 80%);
+    /* opacity: 80%; */
+}
+.course-f1 {
+    background: rgba(255,255,255,.6);
+}
+.course-f1 h1 {
+    color: #4b4545;
+}
+.course-f1 input::placeholder {
+    color: #4b4545 !important;
+}
+.f-sub {
+    color: #4b4545 !important;
+    border: 1px solid #4b4545 !important;
 }
